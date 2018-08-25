@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Title Shows in the Tab of the page-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href="assets/css/style.css">
     <title>Contact</title>
-    <!--pointing to css file-->
-    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <!--Navigation for the site-->    
-    <div class="sticky-header">
-        <header>
-            <div>
-                <h1 id="Main-Logo">Stephen Brown</h1>
-                <nav class="Navigation">
-                    <a class="nav-points" href="index.html">About</a>
-                    <span class="sep">|</span>
-                    <a class="nav-points" href="portfolio.html">Portfolio</a>
-                    <span class="sep">|</span>
-                    <a class="nav-points" href="contact.html">Contact</a>
-                </nav>
-            </div>
-        </header>
-    </div>
-    <div class="Content_Wrapper">
-        <div class="Content">
+    <header>
+        <h1 id="Main-Logo">Stephen Brown</h1>
+        <nav class="Navigation">
+            <a class="nav-points" href="index.html">About</a>
+            <span class="sep">|</span>
+            <a class="nav-points" href="portfolio.html">Portfolio</a>
+            <span class="sep">|</span>
+            <a class="nav-points" href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <div class="content">
             <h2 class="heading">Contact</h2>
             <hr>
-            <form>
+            <form >
                 Name:<br>
                 <input class="name" type="text" name="Name"><br> Email:
                 <br>
                 <input class="email" type="text" name="E-mail"><br> Message:
                 <br>
                 <input class="Message" type="text" name="Message"><br><br>
+                <textarea  id="subject" name="subject" placeholder="Write something.." style=" width:300px height:200px"></textarea>
+                <br>
                 <input style ="background: #4aaaa5;" type="submit" value="Submit">
+
             </form>
         </div>
-    </div>    
-        <footer>
-            copyright &copy;
-        </footer>    
+    </div>
+    <footer>
+        copyright &copy;
+    </footer>
+
 </body>
+
 </html>
